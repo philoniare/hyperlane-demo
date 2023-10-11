@@ -1,0 +1,20 @@
+{
+  "name": "hyperlane",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "searchMessages": "ts-node ./src/hyperlane.ts searchMessages",
+    "sendMessage": "ts-node ./src/hyperlane.ts sendMessage",
+    "test": "ts-node ./src/hyperlane.ts check"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "ethers": "5.2.0",
+    "prettier": "^3.0.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4"
+  }
+}
